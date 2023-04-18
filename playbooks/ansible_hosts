@@ -1,0 +1,6 @@
+[hosts_to_add_key]
+ ##<Place the new instance public ip>##
+
+
+[hosts_to_add_key:vars]
+ansible_ssh_common_args="-o StrictHostKeyChecking=no"

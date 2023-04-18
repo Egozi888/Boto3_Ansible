@@ -1,0 +1,70 @@
+[{
+    'AmiLaunchIndex': 0,
+    'ImageId': 'ami-026b57f3c383c2eec',
+    'InstanceId': 'i-0da6eb434f392a147',
+    'InstanceType': 't2.micro',
+    'KeyName': 'Key_pair_aws',
+    'LaunchTime': datetime.datetime(2022, 10, 3, 9, 1, 36, tzinfo = tzutc()),
+    'Monitoring': {
+        'State': 'disabled'
+    },
+    'Placement': {
+        'AvailabilityZone': 'us-east-1e',
+        'GroupName': '',
+        'Tenancy': 'default'
+    },
+    'PrivateDnsName': '',
+    'ProductCodes': [],
+    'PublicDnsName': '',
+    'State': {
+        'Code': 48,
+        'Name': 'terminated'
+    },
+    'StateTransitionReason': 'User initiated (2022-10-05 09:02:43 GMT)',
+    'Architecture': 'x86_64',
+    'BlockDeviceMappings': [],
+    'ClientToken': '736b6ff6-1338-4cc8-8760-510d6c409484',
+    'EbsOptimized': False,
+    'EnaSupport': True,
+    'Hypervisor': 'xen',
+    'NetworkInterfaces': [],
+    'RootDeviceName': '/dev/xvda',
+    'RootDeviceType': 'ebs',
+    'SecurityGroups': [],
+    'StateReason': {
+        'Code': 'Client.UserInitiatedShutdown',
+        'Message': 'Client.UserInitiatedShutdown: User initiated shutdown'
+    },
+    'Tags': [{
+        'Key': 'EnvName',
+        'Value': 'Test Environment'
+    }],
+    'VirtualizationType': 'hvm',
+    'CpuOptions': {
+        'CoreCount': 1,
+        'ThreadsPerCore': 1
+    },
+    'CapacityReservationSpecification': {
+        'CapacityReservationPreference': 'open'
+    },
+    'HibernationOptions': {
+        'Configured': False
+    },
+    'MetadataOptions': {
+        'State': 'pending',
+        'HttpTokens': 'optional',
+        'HttpPutResponseHopLimit': 1,
+        'HttpEndpoint': 'enabled',
+        'HttpProtocolIpv6': 'disabled',
+        'InstanceMetadataTags': 'disabled'
+    },
+    'EnclaveOptions': {
+        'Enabled': False
+    },
+    'PlatformDetails': 'Linux/UNIX',
+    'UsageOperation': 'RunInstances',
+    'UsageOperationUpdateTime': datetime.datetime(2022, 10, 3, 9, 1, 36, tzinfo = tzutc()),
+    'MaintenanceOptions': {
+        'AutoRecovery': 'default'
+    }
+}]
